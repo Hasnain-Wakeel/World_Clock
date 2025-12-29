@@ -83,7 +83,7 @@ body {
   transform: scale(1.05);
   text-shadow: 0 0 12px rgba(255, 217, 0, 0.449);
   /* border-bottom: 2px solid rgb(255, 217, 0.8); */
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 } 
 /* --------------------- 3rd Option --------------------- */
 /* .country {
@@ -130,8 +130,8 @@ body {
 } */
 /* --------------------- 2nd Option --------------------- */
 .time {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 400;
   color: #ffee00;
   letter-spacing: 2px;
   transition: text-shadow 0.3s ease, transform 0.3s ease;
@@ -139,8 +139,6 @@ body {
 .time:hover {
     transform: scale(1.08);
 }
-
-/* border-top: 1px solid rgba(255, 255, 255, 0.1); */
 .footer {
   font-size: 1rem;
   color: #bdbdbd;
@@ -148,6 +146,7 @@ body {
   transition: color 0.3s ease, transform 0.3s ease;
   margin-top: 30px;
   margin-bottom: 30px;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .footer:hover {
   color: #FFD700;
